@@ -1,0 +1,23 @@
+[Timestamp]
+Team Num - #
+Partner Team Num - #
+Hanging @ Start - Y/N
+Deployed TM - Y/N
+Sampled Correctly - "One Sample" "Both Samples" "None"
+Scored Minerals @ Depot - #
+Scored Minerals @ Lander - #
+Parked in Auto - Y/N
+AUTO_RELIB hanging - # 1-5
+           TM - # 1-5
+           Sample - # 1-5
+What can they pick up - "Silver" "Gold" "Both" "Only two of the same"
+How do they intake - "Reaching in the Crater" "Going into the Crater" "Neither"
+Where do they score - "Lander" "Depot" "Both"
+Minerals in Lander - #
+Minerals in Depot - #
+Where did they park - "Latched" "Parked in Crater" "Parked on Crater" "They didn't"
+Aggression - # 1-3
+Strategy - # 1-5
+Good Robot - # 1-5
+Cool Robot - # 1-5
+Possible Alliance Partner - Y/N
