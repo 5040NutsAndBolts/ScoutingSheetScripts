@@ -68,9 +68,9 @@ function robotScore(pickups, intakeMethod, scoringLoc, parkingLoc, goodRobot) {
  */
 function generateData (team, data) { 
   var currentData;
-  var teamNumCol = 2;
-  var autoCol = 14;
-  var teleopCol = 15;
+  var teamNumCol = 1;
+  var autoCol = 4;
+  var teleopCol = 5;
   var auto;
   var teleop;
   var endgame;
