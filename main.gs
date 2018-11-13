@@ -60,39 +60,6 @@ function robotScore(pickups, intakeMethod, scoringLoc, parkingLoc, goodRobot) {
 
 }
 
-/**
- * Returns the average auto score for the secified team
- *
- * @param {teamNum} the team to get averages for
- * @return Average auto score for Team
- */
-function GET_AVG_AUTO(teamNum) {
-  Logger.log(properties.getProperty('auto' + teamNum));
-  return properties.getProperty('auto' + teamNum); // Truncate the sting(to avoid large decimals)
-}
-
-/**
- * Returns the average teleop score for the secified team
- *
- * @param {teamNum} the team to get averages for
- * @return Average teleop score for Team
- */
-function GET_AVG_TELEOP(teamNum) {
-  Logger.log(properties.getProperty('teleop' + teamNum));
-  return properties.getProperty('teleop' + teamNum).toString().slice(5); // Truncate the sting(to avoid large decimals)
-}
-
-/**
- * Returns the average endgame score for the secified team
- *
- * @param {teamNum} the team to get averages for
- * @return Average endgame score for Team
- */
-function GET_AVG_ENDGAME(teamNum) {
-  Logger.log(properties.getProperty('endgame' + teamNum));
-  return properties.getProperty('endgame' + teamNum).toString().slice(5); // Truncate the sting(to avoid large decimals)
-}
-
 
 /**
  * Adds match data to a team object
